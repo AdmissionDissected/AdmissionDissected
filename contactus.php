@@ -1,14 +1,8 @@
 
 <?php
-if($_POST["message"]) {
-    mail("Shaan@admissionsdissected.com", "Form to email message", $_POST["message"], "From: an@email.address");
-}
-?>
-
-<?php
 
 if($_POST["submit"]) {
-    $recipient="Shaan@admissionsdissected.com";
+    $recipient="your@email.address";
     $subject="Form to email message";
     $sender=$_POST["sender"];
     $senderEmail=$_POST["senderEmail"];
@@ -21,7 +15,8 @@ if($_POST["submit"]) {
     $thankYou="<p>Thank you! Your message has been sent.</p>";
 }
 
-?><!DOCTYPE html>
+?>
+
 
 <html>
 <head>
