@@ -2,7 +2,7 @@
 <?php
 
 if($_POST["submit"]) {
-    $recipient="your@email.address";
+    $recipient="allam.mail@gmail.com";
     $subject="Form to email message";
     $sender=$_POST["sender"];
     $senderEmail=$_POST["senderEmail"];
